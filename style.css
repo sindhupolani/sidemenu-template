@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+}
+.main{
+	width: 100%;
+	display: flex;
+}
+.sideMenu{
+	background-color: #3D0158;
+	width: 22%;
+	height: 100vh;
+}
+.sideMenu .top{
+	padding: 20px;
+	height: 150px;
+	background-image: url('bg.jpg');
+	background-size: cover;
+}
+.sideMenu .top img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	display: block;
+	margin: auto;
+}
+.sideMenu .top p{
+	text-align: center;
+	margin-top: 20px;
+	color: #ffffff;
+}
+.menu{
+	padding: 5px;
+}
+.menu ul li i{
+	color: #dedede;
+	margin-right: 20px;
+}
+.menu ul .active, .menu ul li:hover{
+	background-color: #2a013d;
+	border: none;
+}
+.menu ul li {
+	border-bottom: 1px solid #4d056e;
+	color: #dedede;
+	padding: 15px;
+}
+.info{
+	background-color: #efefef;
+	width: 78%;
+	height: 100vh;
+}
+.info .header{
+	display: flex;
+} 
+.info .header p{
+	font-size: 25px;
+	color: #7d7d7d;
+	font-weight: 500;
+	padding: 25px 35px;
+}
+.info .header p span{
+	font-weight: 600;
+	color: #000000;
+}
+.info .header div{
+	background-color: #ffffff;
+	height: 20px;
+	border-radius: 10px;
+	padding: 8px;
+	margin-top: 22px;
+	margin-left: auto;
+	margin-right: 50px;	
+}
+.info .header div span{
+	padding: 0px 12px;
+	font-size: 80%;
+}
+.info .header div .month{
+	background-color: rgb(255,0,144);
+	padding: 6px;
+	border-radius: 5px;
+	color: #ffffff
+}
+.cards{
+	display: flex;
+}
+.cards .one, .cards .two{
+	width: 50%;
+	border-radius: 15px;
+	margin: 20px 40px;
+	padding: 20px;
+	background-color: #ffffff;
+}
+.cards .one{
+	display: flex;
+}
+.cards .one img{
+	width: 200px;
+	height: 150px;
+}
+.cards .one div .header{
+	font-size: 80%;
+	font-weight: 600;
+}
+.cards .one div div{
+	display: flex;
+}
+.cards .one div div p{
+	font-size: 30px;
+	margin: 12px;
+	font-weight: 600;
+	color: rgb(252,102,0)
+}
+.cards .one div div i{
+	color: rgb(252,102,0);
+	margin-top: 10px ;
+}
+.cards .one div div .fa-chevron-down{
+	margin-top: 0px;
+	color: #dfdfdf;
+}
+.cards .one div div div{
+	display: block;
+}
+.cards .one div .para{
+	margin-top: 10px;
+	font-size: 80%;
+	font-weight: 500;
+	color: #9e9e9e;
+}
+.cards .two{
+	background: #de6161;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cards .two .p-one, .cards .two .p-three {
+	color: #ffffff;
+	font-size: 90%;
+	margin: 10px 0px;
+}
+.cards .two .p-two{
+	color: #ffffff;
+	font-size: 250%;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.portfolio{
+	display: flex;
+	justify-content: space-around;
+}
+.portfolio .profile{
+	width: 30%;	
+	padding-top: 10px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.portfolio .profile img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	display: block;
+	margin: auto;
+}
+.portfolio .profile .name{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.portfolio .profile .profession{
+	text-align: center;
+	font-size: 80%;
+	font-weight: 500;
+}
+.portfolio .profile .mid{
+	text-align: center;
+	margin-top: 10px;
+}
+.portfolio .profile .mid button{
+	outline: none;
+	padding: 8px 25px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	border: 1px solid purple;
+	font-size: 90%;
+	font-weight: 500;
+	color: purple;
+	text-align: center;
+}
+.portfolio .profile .mid button:hover{
+	background-color: purple;
+	color: #ffff;
+}
+.portfolio .profile .mid-btn{
+	padding: 10px 80px;
+	background-color: purple;
+	border-radius: 10px;
+	border: 1px solid purple;
+	outline: none;
+	color: #ffff;
+	font-weight: 500;
+	display: block;
+	margin: 0 auto ;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.portfolio .profile button:hover{
+	color: purple;
+	border: 1px solid purple;
+	background-color: white;
+}
+.portfolio .profile .bottom{
+	display: flex;
+}
+.portfolio .profile .bottom div{
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	color: purple;
+	border-radius:0px 0px 5px 5px;
+	border-top: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.portfolio .profile .bottom div:hover{
+	background-color: purple;
+	color: #ffffff;
+	border-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
